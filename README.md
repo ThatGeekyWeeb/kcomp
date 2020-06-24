@@ -52,3 +52,6 @@ And Thus my search begins!
 ***
 ### ~ [mail-archive.com](https://www.mail-archive.com/kde-bugs-dist@kde.org/msg385114.html)
 I've found it!
+\
+A email retaining to a bug from `Thu, 12 Sep 2019`
+![FOUND IT](https://github.com/ThatGeekyWeeb/kcomp/blob/master/mail-archive.png)
