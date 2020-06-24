@@ -56,7 +56,7 @@ I've found it!
 A email retaining to a bug from `Thu, 12 Sep 2019`
 ![FOUND IT](https://github.com/ThatGeekyWeeb/kcomp/blob/master/mail-archive.png)
 ***
-Show that one can (re-)enable the compositor by editing `$HOME/.config/kwinrc`
+Showing that one can (re-)enable the compositor by editing `$HOME/.config/kwinrc`
 \
 In the past I've Seen `rc` files for KWin/KDE simply removed with version changes, but `kwinrc` was still there!
 ***
@@ -90,3 +90,12 @@ GLCore=true
 OpenGLIsUnsafe=false
 WindowsBlockCompositing=false
 ```
+***
+### ~ Automatticly
+`kcomp.sh` works by replacing the incorrect value, altough KWin sets this incorrect value upon startup after a *crash*
+\
+Meaning, `kcomp.sh` has to be run, after KDE starts up, easily, `kcomp.sh` checks if the incorrect value (`OpenGLIsUnsafe`=**`true`**)
+\
+Is found within `kwinrc` then replaces it (if found), and reloads KWin with `kwin_x11 --replace`
+\
+Adding to to something like, `bashrc` work perfectly!
