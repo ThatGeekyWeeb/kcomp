@@ -54,4 +54,39 @@ And Thus my search begins!
 I've found it!
 \
 A email retaining to a bug from `Thu, 12 Sep 2019`
-![FOUND IT]()
+![FOUND IT](https://github.com/ThatGeekyWeeb/kcomp/blob/master/mail-archive.png)
+***
+Show that one can (re-)enable the compositor by editing `$HOME/.config/kwinrc`
+\
+In the past I've Seen `rc` files for KWin/KDE simply removed with version changes, but `kwinrc` was still there!
+***
+## Writing!
+### ~ Contents Check
+First I should check the contents of `kwinrc` since it's likely that KWin puts multiple values in `kwinrc`
+***
+\
+And of course they do! Can't make it easy for me eh KDE?
+\
+Naturally our line of `OpenGLIsUnsafe` is under the `[Composting]` block,
+\
+Which naturally is in the middle of the config file, lovely!
+***
+# kcomp.sh
+### ~ The Beginning
+<!-- Thx to @Wolfram#6121 for the help with kcomp.sh --!>
+***
+<!-- Can't be that hard to edit a file without ever touching it right? KEK --!>
+
+And so, I've writting `kcomp.sh`
+\
+The Script outputs the contents of `kwinrc`
+\
+Removes the `[Composting]` block with `sed`
+\
+Then readds it with the correct values
+```
+[Compositing]
+GLCore=true
+OpenGLIsUnsafe=false
+WindowsBlockCompositing=false
+```
