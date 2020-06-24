@@ -1,5 +1,5 @@
 #!/bin/sh
-grep "OpenGLIsUnsafe=true" "$HOME/thatgeekyweeb/.config/kwinrc" || exit 1
+grep "OpenGLIsUnsafe=true" "$HOME/.config/kwinrc" || exit 1
 IFS=""
 var1=$(sed '1,/Windows/d' "$HOME/.config/kwinrc")
 var2=$(sed '/Comp/Q' "$HOME/.config/kwinrc")
