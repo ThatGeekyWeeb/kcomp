@@ -73,11 +73,7 @@ Which naturally is in the middle of the config file, lovely!
 ***
 # kcomp.sh
 ### ~ The Beginning
-<!-- Thx to @Wolfram#6121 for the help with kcomp.sh --!>
-***
-<!-- Can't be that hard to edit a file without ever touching it right? KEK --!>
-
-And so, I've writting `kcomp.sh`
+And so, I've been writting `kcomp.sh`
 \
 The Script outputs the contents of `kwinrc`
 \
@@ -99,3 +95,6 @@ Meaning, `kcomp.sh` has to be run, after KDE starts up, easily, `kcomp.sh` check
 Is found within `kwinrc` then replaces it (if found), and reloads KWin with `kwin_x11 --replace`
 \
 Adding to to something like, `bashrc` work perfectly!
+
+**Thx to @Wolfram#6121 for the help with kcomp.sh**
+<!-- Can't be that hard to edit a file without ever touching it right? KEK -->
