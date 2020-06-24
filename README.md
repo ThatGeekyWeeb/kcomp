@@ -54,4 +54,4 @@ And Thus my search begins!
 I've found it!
 \
 A email retaining to a bug from `Thu, 12 Sep 2019`
-![FOUND IT](https://github.com/ThatGeekyWeeb/kcomp/blob/master/mail-archive.png)
+![FOUND IT]()
